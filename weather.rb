@@ -41,6 +41,7 @@ city_weather_info(weather)
 def convert_temp(weather)
   x = weather[:temperature_farenheit] - 32.0
   celsius = x * (5.0/9.0)
+  celsius = celsius.round
   puts "The temperature in celsius is #{celsius}°C."
 end 
 
