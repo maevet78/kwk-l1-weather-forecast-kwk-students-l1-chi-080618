@@ -44,6 +44,7 @@ def convert_temp(weather)
   puts "The temperature in celsius is #{celsius}°C."
 end 
 
+puts convert_temp(weather)
 # Hint - how can we find the algorithm to convert Farenheit to Celsius?
 
 
