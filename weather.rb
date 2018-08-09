@@ -40,7 +40,7 @@ city_weather_info(weather)
 # BONUS:  Write a method that takes in the weather hash as an argument and converts the farenheit temperature to celcius. Have the method round your answer to two decimal places. Is there a method we can use to round in Ruby?
 def convert_temp(weather)
   x = weather[:temperature_farenheit] - 32.0
-  celsius = x * (5.0/9.0)
+  celsius.round = x * (5.0/9.0)
   puts "The temperature in celsius is #{celsius}°C."
 end 
 
