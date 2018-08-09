@@ -42,7 +42,7 @@ def convert_temp(weather)
   x = weather[:temperature_farenheit] - 32.0
   celsius = x * (5.0/9.0)
   celsius = celsius.round(2)
-  return "The temperature in celsius is #{celsius}°C."
+  puts "The temperature in celsius is #{celsius}°C."
 end 
 
 puts convert_temp(weather)
