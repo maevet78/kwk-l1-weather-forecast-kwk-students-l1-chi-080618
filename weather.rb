@@ -41,7 +41,7 @@ city_weather_info(weather)
 def convert_temp(weather)
   x = weather[3] - 32
   celsius = x * (5/9)
-  puts "The temperature in celsius is #{celsius}
+  puts "The temperature in celsius is #{celsius} 
 end 
 
 # Hint - how can we find the algorithm to convert Farenheit to Celsius?
